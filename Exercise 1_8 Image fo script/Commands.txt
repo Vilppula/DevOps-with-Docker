@@ -1,0 +1,6 @@
+Commands given:
+
+(note: curler-script.sh contains lines -apt update- & -apt install curl-)
+
+>docker build . -t curler
+>docker run -it curler

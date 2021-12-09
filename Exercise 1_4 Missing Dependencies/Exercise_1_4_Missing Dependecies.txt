@@ -1,0 +1,13 @@
+Commands given:
+
+
+> docker run -it --name ubuntu1 ubuntu sh -c 'apt update; apt install curl; echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+> Y (to confirm curl install)
+
+Input website:
+>helsinki.fi
+
+Result:
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">                                               <html><head>                                                                                    <title>301 Moved Permanently</title>                                                             </head><body>                                                                                    <h1>Moved Permanently</h1>                                                                       <p>The document has moved <a href="https://www.helsinki.fi/">here</a>.</p>                       </body></html>             
